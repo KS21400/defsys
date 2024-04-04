@@ -1,0 +1,120 @@
+.rst_footer_banner {
+  background: url(../assets/bg_footer.jpg) no-repeat 50% 0;
+  /* background-size: cover; */
+  text-align: center;
+  padding: 5px 0px 105px;
+  position: relative;
+  background-color: #333;
+  margin-top: 50px;
+}
+
+.rst_footer_banner h2 {
+  color: #fff;
+  letter-spacing: 5px;
+  margin: 100px 0px 26px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #101e22;
+}
+
+.rst_go_to_top {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 22px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: 2px solid #667e84;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.rst_footer_banner .rst_vertical {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 104px;
+  top: -70px;
+  opacity: 0.25;
+}
+
+.rst_vertical {
+  width: 1px;
+  height: 30px;
+  background: #8eb4bf;
+  opacity: 0.25;
+  display: block;
+  margin: auto;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    to bottom,
+    rgba(201, 33, 40, 1) 0%,
+    rgba(193, 32, 38, 1) 100%
+  );
+}
+
+.btn-radius {
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  filter: "";
+}
+/* .btn {
+
+} */
+
+.btn {
+  color: #fff;
+  border: 0px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding: 14px 20px;
+  min-width: 170px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

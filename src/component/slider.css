@@ -1,0 +1,50 @@
+#carouselExampleCaptions {
+  .carousel-caption {
+    bottom: 34%;
+    background: rgba(51, 51, 51, 0.5);
+  }
+
+  img {
+    width: auto;
+    height: 100vh;
+    max-height: 100vh;
+    display: none;
+  }
+
+  .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 12px;
+  }
+  .carousel-indicators {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: right;
+    margin-right: 15px;
+    justify-content: end;
+    .active {
+      border: 2px solid #67d6ff;
+      width: 10px;
+      height: 10px;
+      background: none;
+    }
+  }
+  .carousel-caption {
+    top: 10px;
+    left: 0;
+    bottom: auto;
+    display: flex;
+    /* align-items: center; */
+    max-width: 600px;
+    justify-content: flex-start;
+    h2 {
+      color: #fff;
+    }
+  }
+  .captionDiv {
+    margin-left: 20px;
+  }
+}
